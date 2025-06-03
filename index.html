@@ -1,21 +1,216 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Профессиональное Ателье - Эксклюзивная одежда и ремонт</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-      <meta name="pp-name" value="atelier-simple-site">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профессиональное Ателье</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="pp-name" value="atelier-simple-site">
       <script src="https://cdn.poehali.dev/intertnal/js/pp-min-2.js"></script>
       <script src="https://cdn.poehali.dev/intertnal/js/route-min.js"></script>
       <script src="https://cdn.poehali.dev/intertnal/js/inspector-min.js"></script>
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Профессиональное
+                        <span class="text-accent">Ателье</span>
+                    </h1>
+                    <p class="hero-description">
+                        От эксклюзивных нарядов до ремонта одежды. Работаем с люксовыми
+                        брендами и любимыми вещами с равным профессионализмом.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">
+                            ✂️ Записаться на консультацию
+                        </button>
+                        <button class="btn btn-outline">
+                            📞 Связаться с нами
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="hero-image-container">
+                    <div class="hero-card">
+                        <img src="https://images.unsplash.com/photo-1558618666-fbd51c2cd9c6?w=500" 
+                             alt="Профессиональное швейное оборудование" 
+                             class="hero-image">
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <div class="stat-number">15+</div>
+                                <div class="stat-label">лет опыта</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">1000+</div>
+                                <div class="stat-label">клиентов</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">100%</div>
+                                <div class="stat-label">качество</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши услуги</h2>
+                <p class="section-description">Полный спектр швейных услуг для любых задач</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">👔</div>
+                    <h3 class="service-title">Шить одежду</h3>
+                    <p class="service-subtitle">Продавать различные материалы</p>
+                    <p class="service-description">
+                        Создание уникальных нарядов, работа с тканями премиум-класса
+                    </p>
+                    <div class="service-brands">
+                        <span class="brand">BALENCIAGA</span>
+                        <span class="brand">RICK OWENS</span>
+                        <span class="brand">ERL</span>
+                        <span class="brand">KANYE WEST</span>
+                        <span class="brand">GOSHA РУБЧИНСКИЙ</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👥</div>
+                    <h3 class="service-title">Ценностные предложения</h3>
+                    <p class="service-subtitle">Специалист наравне с молодёжью</p>
+                    <p class="service-description">
+                        Работа с любимыми материалами, креативность, работа по видеосвязи
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎁</div>
+                    <h3 class="service-title">Взаимоотношения с клиентами</h3>
+                    <p class="service-subtitle">Качественная работа коммуникативность</p>
+                    <p class="service-description">
+                        Индивидуальный подход к каждому клиенту
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📻</div>
+                    <h3 class="service-title">Каналы сбыта</h3>
+                    <p class="service-subtitle">Сарафанное радио флаеры теги Назборах</p>
+                    <p class="service-description">
+                        Многоканальное продвижение услуг
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👤</div>
+                    <h3 class="service-title">Потребительские сегменты</h3>
+                    <p class="service-subtitle">Костюмеры, фурри, косплейщики, шоумены, бизнесмены</p>
+                    <p class="service-description">
+                        Работаем с различными целевыми группами
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <p class="section-description">Профессиональный подход и качество на каждом этапе</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">✂️</div>
+                    <h3 class="feature-title">Ключевые ресурсы</h3>
+                    <p class="feature-description">Ткани, швейные машинки, сотрудники</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🏢</div>
+                    <h3 class="feature-title">Структура издержек</h3>
+                    <p class="feature-description">Аренда, закупка ткани, обслуживание швейных машин</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">📄</div>
+                    <h3 class="feature-title">Содержание штатов</h3>
+                    <p class="feature-description">Профессиональная команда мастеров</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">💰</div>
+                    <h3 class="feature-title">Потоки поступления доходов</h3>
+                    <p class="feature-description">Средства, полученные с продажи изделий/выполнения услуг</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content">
+                    <h2 class="section-title text-white">Готовы начать работу?</h2>
+                    <p class="contact-description">
+                        Свяжитесь с нами для консультации и обсуждения вашего проекта. Мы
+                        работаем как с индивидуальными клиентами, так и с компаниями.
+                    </p>
+
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span class="contact-text">+7 (999) 123-45-67</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <span class="contact-text">info@atelier-pro.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span class="contact-text">Москва, ул. Модная, 15</span>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary">
+                        📅 Записаться на консультацию
+                    </button>
+                </div>
+
+                <div class="schedule-card">
+                    <h3 class="schedule-title">Режим работы</h3>
+                    <div class="schedule-content">
+                        <div class="schedule-item">
+                            <span>Пн-Пт</span>
+                            <span>9:00 - 20:00</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span>Сб</span>
+                            <span>10:00 - 18:00</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span>Вс</span>
+                            <span>Выходной</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
